@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Blog_App2_cyps2s35_wpftmp
+build_property.ProjectDir = C:\Users\bande\OneDrive\Desktop\Renton Tech College stuff\Classes\2023 Winter\CSI 124 Computer Programming 3\Module 1 Redo\Project-1---Blog-App-Redone-\Blog_App2\

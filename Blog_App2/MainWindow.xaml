@@ -1,0 +1,30 @@
+﻿<Window x:Class="Blog_App2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blog_App2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Header" HorizontalAlignment="Left" Margin="49,24,0,0" VerticalAlignment="Top"/>
+        <Label Content="Body" HorizontalAlignment="Left" Margin="58,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtHeader" HorizontalAlignment="Left" Margin="45,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <RichTextBox Margin="24,154,593,78">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="runBody" Text="Body Text"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox Margin="244,0,279,0">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="runDisplay" Text="RichTextBox2"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="btnCreatePost" Content="Button" HorizontalAlignment="Left" Margin="26,364,0,0" VerticalAlignment="Top" Height="32" Width="178" Click="btnCreatePost_Click"/>
+
+    </Grid>
+</Window>
